@@ -6,6 +6,9 @@ name: Fetch generated assets
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'dating-shorts-empire/.asset-manifest.json'
 
 permissions:
   contents: write
