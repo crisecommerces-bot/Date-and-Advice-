@@ -16,3 +16,4 @@ One-line reasoning for every judgment call made autonomously.
 - [P0b] Built GitHub Actions asset relay (push-triggered on .asset-manifest.json) because the container cannot reach the Higgsfield CDN; verified end-to-end with 5 assets.
 - [P1] Ideas 16-33 lack proof links (search snippets showed no per-video view counts; YouTube pages unfetchable) — honestly capped at 60 per scoring rule instead of fabricating evidence.
 - [P3] Chose Online-Therapy.com ($150+/signup, 90d cookie, official page confirmed) over eharmony (stronger audience fit but weaker verified terms) and BetterHelp (FTC-settlement reputation caveat).
+- [P4-pause] User cancelled the requested "Earth zoom in" preset video before generation — no credits spent on it.
