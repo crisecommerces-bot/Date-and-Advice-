@@ -53,3 +53,9 @@ Balance cross-check: **start 261.85** (00:59 UTC) → **end 207.35** (05:20 UTC)
 | Credits: spent / cap / balance | 54.50 / 157 / 207.35 remaining |
 | Cost per Short | 34.7 cr first (all-new assets); **10.8 cr** for Short 02 with asset reuse — the reuse library is the cost lever |
 | 30-day calendar fill estimate | 29 more Shorts × ~33 cr ≈ **~960 credits** (assumes current models/prices, ~10 gen-assets per Short, covers/packages already done — estimate, not a quote) |
+
+
+## Addendum — voice change session (user request)
+Xavier's seed_audio delivery read as monotone. Auditioned 3 preset voices + 4 engines on the real hook line (user listened to relayed files), user chose **ElevenLabs engine, same Xavier voice**. All 14 takes re-generated (0.3cr each — cheaper than seed_audio) and both Shorts reassembled: Short 01 now 42.10s, Short 02 now 38.70s.
+Balance: 207.35 → **200.20** (7.15cr for the whole voice exploration + re-voice). Running session total: **61.65cr of 157 cap** (39.3%).
+Voice previews for all 20 male presets archived free in `voice-auditions/previews/`.

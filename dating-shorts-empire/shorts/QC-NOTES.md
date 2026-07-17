@@ -20,3 +20,6 @@ Watch it TWICE before uploading — once muted, once with sound:
 2. Same muted + sound double-watch as Short 01.
 3. T7 sets up a "flag that looks green but isn't" follow-up — only keep it if you plan to make that video (it maps to idea #16, Love-Bombing).
 4. Same 720p-source caveat on the 2 video-clip beats as Short 01.
+
+## Voice v2 (2026-07-17, second session)
+Both MP4s re-voiced with ElevenLabs-engine Xavier (user pick after audition). Old seed_audio takes removed; block boundaries shifted slightly (01: 39.77→42.10s, 02: 39.60→38.70s) — re-do the muted/sound double-watch on the NEW files.

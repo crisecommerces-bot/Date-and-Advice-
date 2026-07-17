@@ -23,3 +23,4 @@ One-line reasoning for every judgment call made autonomously.
 - [P5] V3 cut to 4s (serves 2 beats) instead of 8s — saved 4.8cr with zero coverage loss.
 - [P6] Cover #27 "≠" glyph missing from Anton — rewrote punch words to "NICE ISN'T / GOOD" (glyph audit is now part of the cover template).
 - [P9] Bonus Short 02 produced from idea #1 with a Claude-drafted script, deliberately written WITHOUT inventing personal stories for John (Operating Rule 9) — labeled NOT-APPROVED in scripts/ and posting-packages/; lean build (~11cr) reusing Short-01 stills, clips, and cards.
+- [V2] Voice feedback ("monotone"): auditioned Brooks/Leo/Zane + 4 engines on the real hook line via relay; user chose ElevenLabs engine with the same Xavier voice. 14 takes re-generated (0.3cr each), both Shorts reassembled (42.10s / 38.70s). All docs updated; seed_audio deprecated for this project.

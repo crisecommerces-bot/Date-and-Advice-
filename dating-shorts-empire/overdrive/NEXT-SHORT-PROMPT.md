@@ -8,7 +8,7 @@ Produce Short #NN for the "Date & Advice" channel in this repo (`dating-shorts-e
 
 FIXED PROJECT STANDARDS (do not re-derive):
 - Character: reference element `Ace-DatingMascot-Master` (id `1949b5d7-5025-4ff4-bd7b-e456848c1f58`) — embed `<<<1949b5d7-5025-4ff4-bd7b-e456848c1f58>>>` in every avatar image prompt. Master sheet: `channel-identity/master-character-sheet.png`.
-- Voice: Xavier, `voice_id 43173c95-3ec8-446a-a162-6504332c578b`, `voice_type preset`, model `seed_audio`, beat-sized takes.
+- Voice: Xavier via ElevenLabs — model `text2speech_v2` with `variant: "elevenlabs"`, `voice_id 43173c95-3ec8-446a-a162-6504332c578b`, `voice_type preset`, beat-sized takes (0.3cr each). Do NOT use plain seed_audio (user rejected its flat delivery).
 - Models: stills `seedream_v5_lite` (1cr) + element ref; non-avatar stills `z_image` (0.15cr); video `seedance1_5` 9:16 (4s=4.8cr / 8s=9.6cr) with `start_image` = a generated still's job id; NEVER `gemini_omni` (30cr) or kling (plan-gated). Submit ONE job per model family at a time (429s otherwise). Decline any preset_recommendation notice with `declined_preset_id`.
 - Brand: colors #FF4757 / #2ED573 / #1E2A45 on #FFF6EC; fonts in `channel-identity/fonts/`; red/green flag motif.
 - Script rules: ~45s (110–150 words), hook in line one (no greeting), open loop early + close it last, 2–4 beats each ending on a turn, one micro-CTA max, save raw to `scripts/NN-raw.md`, final to `scripts/NN-final.md`, beat map table to `scripts/NN-beat-map.md` (≤2s per visual hold, avatar in hook + every ~8s + closer, captions every beat, ~10 unique generated assets serving ~24 beats via punch-ins/re-crops).

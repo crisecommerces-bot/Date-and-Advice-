@@ -41,4 +41,4 @@ Expression set: neutral · smitten (heart-eyes) · suspicious side-eye · shocke
 Master reference: `channel-identity/master-character-sheet.png` (Higgsfield job `f83fab6f-3e37-4157-8af3-a459fcbb5bdc`), registered as reference element **`Ace-DatingMascot-Master`** (`1949b5d7-5025-4ff4-bd7b-e456848c1f58`) — **every** avatar generation (Shorts scenes and covers) embeds this element. v1 (hoodie concept) and v2 (pre-logo) sheets kept for provenance.
 
 ## Voice
-Narration voice (all Shorts): **Xavier** — Higgsfield preset `43173c95-3ec8-446a-a162-6504332c578b` (user-selected). Conversational, warm, a friend telling you something important.
+Narration voice (all Shorts): **Xavier via the ElevenLabs engine** — `generate_audio` model `text2speech_v2`, `variant: "elevenlabs"`, voice_id `43173c95-3ec8-446a-a162-6504332c578b`, voice_type `preset` (user-selected after auditions; the plain seed_audio engine read as monotone). 0.3cr/take.
