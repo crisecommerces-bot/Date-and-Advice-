@@ -22,3 +22,4 @@ One-line reasoning for every judgment call made autonomously.
 - [P5] No music bed: the only music model (sonilo_music) is restricted to the game pipeline per MCP docs; Short ships VO-only, which suits the talking-friend format.
 - [P5] V3 cut to 4s (serves 2 beats) instead of 8s — saved 4.8cr with zero coverage loss.
 - [P6] Cover #27 "≠" glyph missing from Anton — rewrote punch words to "NICE ISN'T / GOOD" (glyph audit is now part of the cover template).
+- [P9] Bonus Short 02 produced from idea #1 with a Claude-drafted script, deliberately written WITHOUT inventing personal stories for John (Operating Rule 9) — labeled NOT-APPROVED in scripts/ and posting-packages/; lean build (~11cr) reusing Short-01 stills, clips, and cards.
