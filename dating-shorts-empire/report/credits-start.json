@@ -1,0 +1,8 @@
+{
+  "starting_balance_credits": 261.85,
+  "subscription_plan_type": "plus",
+  "timestamp_utc": "2026-07-17T00:59:30Z",
+  "credit_budget_mode": "AUTO (60% of starting balance)",
+  "credit_budget_resolved": 157.0,
+  "notes": "Budget cap = 157 credits. Degrade order: cheaper model -> fewer unique clips (reuse via camera moves/re-crops) -> fewer Shorts -> BUDGET-STOP.md"
+}
