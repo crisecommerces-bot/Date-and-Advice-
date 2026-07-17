@@ -11,3 +11,8 @@ One-line reasoning for every judgment call made autonomously.
 - [P0] animation_actions catalog skipped: it drives 3D-rig animations, irrelevant to a flat 2D vector mascot pipeline (call was also rejected during an MCP disconnect).
 - [P0] Installed Pillow + downloaded Anton/Archivo Black/Inter fonts (google/fonts via allowed raw.githubusercontent.com) during the boot install window — needed for local cover composition and burned captions.
 - [P0] Covers strategy: generate a small avatar emotion-pose pack once, then compose all 33 covers locally (Pillow) for pixel-perfect text, palette, and 1080×1920 — AI-rendered text is error-prone and 33 direct generations would cost ~33cr vs ~7cr.
+- [P2] User-directed redesign mid-session: mascot now athletic build, black messy hair, black tee; chest emblem changed to green "A" per user. Renamed mascot "Ace", channel "Date & Advice" (matches repo name + A logo).
+- [P2] Banner text composed locally with Pillow (AI text rendering unreliable); figure isolated from art with feathered paste after a visible vignette seam on first attempt.
+- [P0b] Built GitHub Actions asset relay (push-triggered on .asset-manifest.json) because the container cannot reach the Higgsfield CDN; verified end-to-end with 5 assets.
+- [P1] Ideas 16-33 lack proof links (search snippets showed no per-video view counts; YouTube pages unfetchable) — honestly capped at 60 per scoring rule instead of fabricating evidence.
+- [P3] Chose Online-Therapy.com ($150+/signup, 90d cookie, official page confirmed) over eharmony (stronger audience fit but weaker verified terms) and BetterHelp (FTC-settlement reputation caveat).

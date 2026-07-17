@@ -6,9 +6,9 @@ Branch: claude/dating-shorts-studio-ngcum3
 
 ## Phase status
 - [x] Phase 0 — Boot (complete 2026-07-17 ~03:05 UTC)
-- [ ] Phase 1 — Niche deconstruction → 33 ranked ideas
-- [ ] Phase 2 — Brand + 2D avatar
-- [ ] Phase 3 — Affiliate monetization dossier
+- [x] Phase 1 — Niche deconstruction → 33 ranked ideas (complete; evidence via WebSearch, per-video views unverified — see channel-teardown.md caveat)
+- [x] Phase 2 — Brand + 2D avatar (complete; element 1949b5d7-5025-4ff4-bd7b-e456848c1f58)
+- [x] Phase 3 — Affiliate monetization dossier (complete; Online-Therapy.com primary)
 - [ ] Phase 4 — Script hand-off + retention rewrite (PAUSE for user scripts)
 - [ ] Phase 5 — Produce the Shorts
 - [ ] Phase 6 — 33 vertical cover frames
