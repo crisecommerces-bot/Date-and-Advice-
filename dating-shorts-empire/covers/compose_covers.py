@@ -46,7 +46,7 @@ P = {
 24: ("THE 2-DATE", "RULE", GREEN, "S1"),
 25: ("DOUBLE TEXT", "MATH", NAVY, "S2"),
 26: ("“HEY”", "GETS IGNORED", RED, "S2"),
-27: ("NICE ≠", "GOOD", RED, "SHOCKED"),
+27: ("NICE ISN'T", "GOOD", RED, "SHOCKED"),
 28: ("CHEMISTRY", "LIES", RED, "S3"),
 29: ("THE WAITER", "TEST FAILS", NAVY, "S3"),
 30: ("2AM TEXTS", "I REGRET", RED, "S5"),

@@ -17,3 +17,8 @@ One-line reasoning for every judgment call made autonomously.
 - [P1] Ideas 16-33 lack proof links (search snippets showed no per-video view counts; YouTube pages unfetchable) — honestly capped at 60 per scoring rule instead of fabricating evidence.
 - [P3] Chose Online-Therapy.com ($150+/signup, 90d cookie, official page confirmed) over eharmony (stronger audience fit but weaker verified terms) and BetterHelp (FTC-settlement reputation caveat).
 - [P4-pause] User cancelled the requested "Earth zoom in" preset video before generation — no credits spent on it.
+- [P5] kling3_0_turbo and virality_predictor both gated ("requires basic plan or higher") on this account tier — videos routed to seedance1_5 (720p, upscaled at assembly); automated QC replaced with manual frame/spec/beat audits, documented in QC-NOTES.md.
+- [P5] Higgsfield concurrency: one in-flight job per model family (429 otherwise) — pipelined submissions one-at-a-time interleaved with local work.
+- [P5] No music bed: the only music model (sonilo_music) is restricted to the game pipeline per MCP docs; Short ships VO-only, which suits the talking-friend format.
+- [P5] V3 cut to 4s (serves 2 beats) instead of 8s — saved 4.8cr with zero coverage loss.
+- [P6] Cover #27 "≠" glyph missing from Anton — rewrote punch words to "NICE ISN'T / GOOD" (glyph audit is now part of the cover template).
