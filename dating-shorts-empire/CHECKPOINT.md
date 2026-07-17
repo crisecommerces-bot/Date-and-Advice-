@@ -14,7 +14,7 @@ Branch: claude/dating-shorts-studio-ngcum3
 - [x] Phase 6 — 35 covers (33 + 01A/01B) + contact sheet, composed locally
 - [x] Phase 7 — 33 packages + 00-channel-intro READY TO POST + _master.csv
 - [x] Phase 8 — COST-REPORT.md (43.70cr spent of 157 cap; $47.78 API-rate token est.)
-- [~] Phase 9 — Overdrive (calendar/prompt/series/upload/growth done; bonus Short 02 in production)
+- [x] Phase 9 — Overdrive complete (5 docs + bonus Short 02 produced, 10.8cr, script pending user approval)
 
 ## Resume notes
 If restarted: read this file, resume from first unchecked phase. Config lives in the mission brief; key values: NUM_IDEAS=33, SHORT_LENGTH_SEC=45, MAX_SECONDS_PER_SHOT=2, CREDIT_BUDGET=AUTO (~60% of starting Higgsfield balance).

@@ -1,7 +1,7 @@
 # COST REPORT — Date & Advice build session (2026-07-17)
 
 ## Higgsfield credits — measured, not estimated
-Balance cross-check: **start 261.85** (00:59 UTC) → **end 218.15** = **43.70 credits spent**, which matches the itemized transaction log below to the cent. Budget cap was 157 (AUTO = 60% of start); **27.8% of cap used**.
+Balance cross-check: **start 261.85** (00:59 UTC) → **end 207.35** (05:20 UTC) = **54.50 credits spent**, matching the itemized ledger below to the cent. Budget cap was 157 (AUTO = 60% of start); **34.7% of cap used**.
 
 > Plan note: the account showed `plus` at boot and `free` by session end. That downgrade is why `kling3_0_turbo` (1080p video) and `virality_predictor` (automated QC) returned "requires basic plan or higher" mid-session — both were routed around (seedance 720p + manual QC).
 
@@ -19,7 +19,10 @@ Balance cross-check: **start 261.85** (00:59 UTC) → **end 218.15** = **43.70 c
 | P5 | Talking clip V2 (8s) | seedance1_5 | 9.6 |
 | P5 | Red-flag clip V3 (4s) | seedance1_5 | 4.8 |
 | P6 | Cover poses (smitten, shocked) | seedream_v5_lite ×2 | 2.0 |
-| | **Total** | | **43.70** |
+| P9 | Short 02 stills D1, D2 | seedream_v5_lite ×2 | 2.0 |
+| P9 | Short 02 dinner clip D1V (4s) | seedance1_5 | 4.8 |
+| P9 | Short 02 VO takes T1–T7 | seed_audio ×7 | 4.0 |
+| | **Total** | | **54.50** |
 
 ### Phase totals
 | Phase | Credits |
@@ -27,6 +30,7 @@ Balance cross-check: **start 261.85** (00:59 UTC) → **end 218.15** = **43.70 c
 | P2 Brand + avatar (one-time) | 7.0 |
 | P5 Short 01 production | 34.7 |
 | P6 Covers (35 covers from 2 new + 6 reused poses, composed locally) | 2.0 |
+| P9 Bonus Short 02 (lean build, heavy reuse) | 10.8 |
 | P1/P3/P4/P7/P8 (research, scripts, packages, report) | 0 |
 
 ### Cost per finished Short & projections
@@ -43,9 +47,9 @@ Balance cross-check: **start 261.85** (00:59 UTC) → **end 218.15** = **43.70 c
 | Metric | Value |
 |---|---|
 | Wall-clock elapsed | ~4h 10m (00:57–05:07 UTC, incl. ~35 min paused waiting for the user's script + ~90 min of research blocked until the WebSearch window reset at 02:30) |
-| Shorts produced | 1 of 1 provided script (40s, 1080×1920) — plus 1 bonus draft in overdrive if budget allows |
+| Shorts produced | 2 — 01 from the user's script (39.8s, READY TO POST) + 02 bonus from Claude's draft script (39.6s, awaiting script approval) |
 | Generated assets | 21 Higgsfield jobs (10 identity/pose images, 6 stills, 3 video clips... see ledger) |
 | Files delivered | see FINAL manifest (research 3, identity 10+, scripts 3, shorts 1 MP4 + tooling, covers 35 + sheet, packages 34, monetization 2, overdrive 5+, reports 3) |
-| Credits: spent / cap / balance | 43.70 / 157 / 218.15 remaining |
-| Cost per Short | 34.7 cr direct; ~30–35 cr repeatable |
+| Credits: spent / cap / balance | 54.50 / 157 / 207.35 remaining |
+| Cost per Short | 34.7 cr first (all-new assets); **10.8 cr** for Short 02 with asset reuse — the reuse library is the cost lever |
 | 30-day calendar fill estimate | 29 more Shorts × ~33 cr ≈ **~960 credits** (assumes current models/prices, ~10 gen-assets per Short, covers/packages already done — estimate, not a quote) |
