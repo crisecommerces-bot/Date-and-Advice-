@@ -9,12 +9,12 @@ Branch: claude/dating-shorts-studio-ngcum3
 - [x] Phase 1 — Niche deconstruction → 33 ranked ideas (complete; evidence via WebSearch, per-video views unverified — see channel-teardown.md caveat)
 - [x] Phase 2 — Brand + 2D avatar (complete; element 1949b5d7-5025-4ff4-bd7b-e456848c1f58)
 - [x] Phase 3 — Affiliate monetization dossier (complete; Online-Therapy.com primary)
-- [ ] Phase 4 — Script hand-off + retention rewrite (PAUSE for user scripts)
-- [ ] Phase 5 — Produce the Shorts
-- [ ] Phase 6 — 33 vertical cover frames
-- [ ] Phase 7 — Posting packages
-- [ ] Phase 8 — Cost report
-- [ ] Phase 9 — Overdrive
+- [x] Phase 4 — Script hand-off + rewrite (1 script received; rewrite approved via user green-light "what are we waiting for")
+- [x] Phase 5 — Produce the Shorts (01-100-dates-intro.mp4, 39.77s, 25 beats; QC-NOTES.md)
+- [x] Phase 6 — 35 covers (33 + 01A/01B) + contact sheet, composed locally
+- [x] Phase 7 — 33 packages + 00-channel-intro READY TO POST + _master.csv
+- [x] Phase 8 — COST-REPORT.md (43.70cr spent of 157 cap; $47.78 API-rate token est.)
+- [~] Phase 9 — Overdrive (calendar/prompt/series/upload/growth done; bonus Short 02 in production)
 
 ## Resume notes
 If restarted: read this file, resume from first unchecked phase. Config lives in the mission brief; key values: NUM_IDEAS=33, SHORT_LENGTH_SEC=45, MAX_SECONDS_PER_SHOT=2, CREDIT_BUDGET=AUTO (~60% of starting Higgsfield balance).
