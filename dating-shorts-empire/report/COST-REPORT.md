@@ -59,3 +59,8 @@ Balance cross-check: **start 261.85** (00:59 UTC) → **end 207.35** (05:20 UTC)
 Xavier's seed_audio delivery read as monotone. Auditioned 3 preset voices + 4 engines on the real hook line (user listened to relayed files), user chose **ElevenLabs engine, same Xavier voice**. All 14 takes re-generated (0.3cr each — cheaper than seed_audio) and both Shorts reassembled: Short 01 now 42.10s, Short 02 now 38.70s.
 Balance: 207.35 → **200.20** (7.15cr for the whole voice exploration + re-voice). Running session total: **61.65cr of 157 cap** (39.3%).
 Voice previews for all 20 male presets archived free in `voice-auditions/previews/`.
+
+## Addendum 2 — full avatar restyle (user-directed, "Ace-Final" webtoon style)
+User supplied three references (hero portrait + turnaround sheet + webtoon style ref); combined into element `Ace-Final` (8bc4c35a). After a 2-sample approval gate, ALL avatar assets were regenerated in the approved webtoon/manhwa style: 11 new stills + pfp + banner + 2 cover poses (Sample A reused as S1) and 4 video clips (V1, V2, V3, D1V). Both Shorts reassembled (42.10s / 38.70s), all 35 covers + contact sheet recomposed, identity assets (pfp/banner/watermark) rebuilt.
+Balance: 200.20 → **155.90** = **44.30cr** for the restyle (incl. ~6.3cr of exploration: peach/painterly samples + intermediate sheet edit before the user's final refs).
+**Running session total: 105.95cr of the 157 cap (67.5%).**

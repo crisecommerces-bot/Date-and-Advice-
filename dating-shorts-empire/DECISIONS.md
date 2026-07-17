@@ -28,3 +28,4 @@ One-line reasoning for every judgment call made autonomously.
 - [V3] Style-ref + master-sheet uploads reached Higgsfield via repo raw.githubusercontent URLs + media_import_url (repo is public — simpler than the planned Action-PUT relay).
 - [V3] User approved Sample A: element Ace-Final (8bc4c35a, hero portrait + turnaround) in webtoon render, white bg. Sample A doubles as the new S1 (1cr saved). Full asset re-roll authorized (~40cr, projected ~101/157 cap).
 - [V3] Kinetic text cards keep the cream brand background (contrast variety against white-bg scene beats; palette unchanged).
+- [V3] Full restyle executed after Sample A approval: 16 assets regenerated (44.3cr incl. exploration), both Shorts + 35 covers + identity rebuilt. Running total 105.95/157 cap.

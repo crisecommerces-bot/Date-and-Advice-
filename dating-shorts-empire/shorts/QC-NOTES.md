@@ -23,3 +23,6 @@ Watch it TWICE before uploading — once muted, once with sound:
 
 ## Voice v2 (2026-07-17, second session)
 Both MP4s re-voiced with ElevenLabs-engine Xavier (user pick after audition). Old seed_audio takes removed; block boundaries shifted slightly (01: 39.77→42.10s, 02: 39.60→38.70s) — re-do the muted/sound double-watch on the NEW files.
+
+## Avatar v3 (webtoon restyle — user approved Sample A)
+Both MP4s rebuilt with the Ace-Final webtoon avatar (user's hero portrait + turnaround as identity). Same VO (ElevenLabs Xavier), same durations (42.10s / 38.70s). Re-do the muted/sound double-watch. Note: kinetic text cards kept the cream brand background against the new white scene background — intentional contrast, flag it if you want them white.
