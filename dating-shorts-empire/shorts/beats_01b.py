@@ -1,0 +1,25 @@
+# Beat map for intro v2 (user-voice). Times = absolute seconds in vo-final.wav.
+NAVY = (30, 42, 69, 255); RED = (255, 71, 87, 255); GREEN = (46, 213, 115, 255)
+BEATS = [
+    (1.60, "V2", "vid", {"t0": 0.0}, "I'M JOHN", GREEN),
+    (5.50, "V1", "vid", {"t0": 0.0}, "2 YEARS. 100+ DATES.", RED),
+    (8.53, "K1", "card", {}, None, None),
+    (13.34, "V2", "vid", {"t0": 2.0}, "HOW WOMEN THINK", NAVY),
+    (15.30, "SMITTEN", "still", {}, "WHAT TRIGGERS ATTRACTION", RED),
+    (17.30, "V3", "vid", {"t0": 0.0}, "SPOT RED FLAGS", RED),
+    (19.30, "CB1", "card", {}, None, None),
+    (21.59, "S4", "still", {}, "STAY OR WALK AWAY", GREEN),
+    (25.39, "S2", "still", {}, "EVERYTHING I LEARNED", NAVY),
+    (27.10, "CB2", "card", {}, None, None),
+    (30.97, "V2", "vid", {"t0": 4.5, "zoom": 1.25}, "TO MAKE YOU BETTER AT DATING", GREEN),
+    (33.70, "S1", "still", {}, "FOR THE BROS", NAVY),
+    (34.90, "S1", "still", {"z0": 1.3, "z1": 1.45, "ytop": 0.05}, "I GOT YOU.", GREEN),
+    (37.24, "SHOCKED", "still", {}, "I SEARCHED YOUTUBE...", NAVY),
+    (39.22, "SHOCKED", "still", {"z0": 1.3, "z1": 1.45, "ytop": 0.05}, "NO CHANNEL FOR THE BROS", RED),
+    (41.30, "V1", "vid", {"t0": 5.5, "zoom": 1.3}, "NOT ONE.", RED),
+    (43.62, "V2", "vid", {"t0": 6.0}, "REAL EXPERIENCE", GREEN),
+    (48.76, "S1", "still", {}, "KNOWLEDGE. SHARED.", NAVY),
+    (51.93, "S6", "still", {}, "THE BOOK IS COMING", RED),
+    (55.49, "V2", "vid", {"t0": 0.5, "zoom": 1.2}, "LIKE + SUBSCRIBE", GREEN),
+    (58.51, "CB3", "card", {}, None, None),
+]
