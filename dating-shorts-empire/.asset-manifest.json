@@ -250,5 +250,13 @@
   {
     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EppDFRklfazcc4fzUEIjYmm7tv/hf_20260717_153309_bdbf0471-e62c-40fc-90f8-efa374436876.png",
     "path": "dating-shorts-empire/style-samples/sampleA-webtoon-ace-final-element.png"
+  },
+  {
+    "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.en-q5_1.bin",
+    "path": "dating-shorts-empire/voice-vo/ggml-base.en-q5_1.bin"
+  },
+  {
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EppDFRklfazcc4fzUEIjYmm7tv/hf_20260720_002230_5d274097-4444-4ae2-a3c3-3dc61dbe108d.mp4",
+    "path": "dating-shorts-empire/voice-vo/john-converted.mp4"
   }
 ]
