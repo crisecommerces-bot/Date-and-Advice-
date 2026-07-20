@@ -64,3 +64,7 @@ Voice previews for all 20 male presets archived free in `voice-auditions/preview
 User supplied three references (hero portrait + turnaround sheet + webtoon style ref); combined into element `Ace-Final` (8bc4c35a). After a 2-sample approval gate, ALL avatar assets were regenerated in the approved webtoon/manhwa style: 11 new stills + pfp + banner + 2 cover poses (Sample A reused as S1) and 4 video clips (V1, V2, V3, D1V). Both Shorts reassembled (42.10s / 38.70s), all 35 covers + contact sheet recomposed, identity assets (pfp/banner/watermark) rebuilt.
 Balance: 200.20 → **155.90** = **44.30cr** for the restyle (incl. ~6.3cr of exploration: peach/painterly samples + intermediate sheet edit before the user's final refs).
 **Running session total: 105.95cr of the 157 cap (67.5%).**
+
+
+## Addendum 3 — intro voice regenerated as pure AI (user request)
+Voice-converted (John's recording -> AI) still read robotic; user asked for a clean AI voice reading the script. Generated 3 ElevenLabs-Xavier takes (~0.3cr each) = ~0.9cr, concatenated to 57.0s, rebuilt beat map, reassembled shorts/01-intro.mp4. No new visuals. Balance 148.90 -> ~148.0 (~0.9cr). Running session total ~113.8cr of 157 cap (~72%).
