@@ -26,3 +26,11 @@ Both MP4s re-voiced with ElevenLabs-engine Xavier (user pick after audition). Ol
 
 ## Avatar v3 (webtoon restyle — user approved Sample A)
 Both MP4s rebuilt with the Ace-Final webtoon avatar (user's hero portrait + turnaround as identity). Same VO (ElevenLabs Xavier), same durations (42.10s / 38.70s). Re-do the muted/sound double-watch. Note: kinetic text cards kept the cream brand background against the new white scene background — intentional contrast, flag it if you want them white.
+
+## Intro v3 — `01-intro-john-voice.mp4` (58.6s, 22 beats) — USER'S VOICE via AI conversion
+This REPLACES the earlier `01-100-dates-intro.mp4` as the channel intro. Script + delivery are John's own recording, converted to the Xavier AI timbre (his pacing/emotion, consistent channel voice).
+1. **Sound pass first:** confirm the AI voice reads natural and the pauses feel right (they were compressed from your originals + sped ~3.5%). If any sentence feels rushed, tell me and I'll relax that pause.
+2. **Muted pass:** captions match your exact words; every beat carries one.
+3. **Duration 58.6s** — under the 60s Shorts ceiling with margin.
+4. **AI disclosure:** visuals are AI-animated AND the voice is AI-converted — tick YouTube's altered/synthetic-content disclosure.
+5. Posting package `posting-packages/00-channel-intro-READY-TO-POST.md` still applies (title/description/tags), but the spoken content now matches your new script — re-read the description hook if you want it to echo your new opening line.

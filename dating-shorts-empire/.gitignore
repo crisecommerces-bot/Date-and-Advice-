@@ -1,3 +1,7 @@
 voice-vo/john-raw.m4a
 voice-vo/john-16k.wav
 voice-vo/john-wrapped.mp4
+voice-vo/ggml-base.en-q5_1.bin
+voice-vo/*-16k.wav
+voice-vo/vofinal.json
+voice-vo/.trigger-nonce.mp3
