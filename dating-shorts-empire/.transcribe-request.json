@@ -1,0 +1,5 @@
+{
+  "audio": "dating-shorts-empire/voice-vo/01-jerry-vo.mp3",
+  "out": "dating-shorts-empire/voice-vo/01-jerry-words.json",
+  "model": "small.en"
+}

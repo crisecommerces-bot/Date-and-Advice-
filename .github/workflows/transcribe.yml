@@ -1,0 +1,69 @@
+name: Transcribe VO (word timestamps)
+# The container's egress policy blocks the whisper model hosts (huggingface /
+# azureedge), but GitHub Actions runners have open egress. This workflow runs
+# openai-whisper on the audio named in dating-shorts-empire/.transcribe-request.json
+# and commits back a small word-level timestamp JSON for beat re-timing.
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'dating-shorts-empire/.transcribe-request.json'
+
+permissions:
+  contents: write
+
+jobs:
+  transcribe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install whisper + ffmpeg
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install --quiet openai-whisper
+      - name: Transcribe
+        run: |
+          set -e
+          req="dating-shorts-empire/.transcribe-request.json"
+          [ -f "$req" ] || { echo "no request"; exit 0; }
+          audio=$(jq -r '.audio' "$req")
+          out=$(jq -r '.out' "$req")
+          model=$(jq -r '.model // "small.en"' "$req")
+          echo "transcribing $audio with $model -> $out"
+          python3 - "$audio" "$out" "$model" <<'PY'
+          import sys, json, whisper
+          audio, out, model_name = sys.argv[1], sys.argv[2], sys.argv[3]
+          model = whisper.load_model(model_name)
+          r = model.transcribe(audio, word_timestamps=True, language="en",
+                               condition_on_previous_text=False)
+          words = []
+          for seg in r["segments"]:
+              for w in seg.get("words", []):
+                  words.append({"w": w["word"].strip(),
+                                "s": round(w["start"], 3),
+                                "e": round(w["end"], 3)})
+          segs = [{"s": round(s["start"], 3), "e": round(s["end"], 3),
+                   "text": s["text"].strip()} for s in r["segments"]]
+          json.dump({"words": words, "segments": segs}, open(out, "w"), indent=1)
+          print(f"wrote {len(words)} words, {len(segs)} segments")
+          PY
+      - name: Commit and push
+        run: |
+          git config user.name "transcribe[bot]"
+          git config user.email "transcribe@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && { echo "nothing new"; exit 0; }
+          git commit -m "Transcribe: word timestamps for VO"
+          branch="${GITHUB_REF_NAME}"
+          for attempt in 1 2 3 4 5 6; do
+            if git push origin "HEAD:$branch"; then echo "pushed on attempt $attempt"; exit 0; fi
+            echo "push rejected, rebasing (attempt $attempt)"
+            git fetch origin "$branch"
+            git rebase "origin/$branch" || { git rebase --abort; git reset --soft "origin/$branch"; git add -A; git commit -m "Transcribe: word timestamps for VO"; }
+            sleep $((attempt * 3))
+          done
+          echo "push failed after retries"; exit 1
