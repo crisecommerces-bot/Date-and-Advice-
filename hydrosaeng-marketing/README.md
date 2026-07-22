@@ -18,15 +18,15 @@ site assets and the real numbers (TikTok 312 followers / 0 sales at time of work
 - Format: **testimonial** (the format that already outperforms for this brand).
 - Built as 6 single-action clips → assembled with voiceover + burned captions.
 
-### Production status (important)
-- ✅ Sora designed + locked as a reusable Higgsfield Reference Element.
-- ✅ All **6 start-frame images** generated (Sora consistent, on-brand, IP-clean) — in your
-  Higgsfield workspace.
-- ⛔ **Animation blocked on the free plan.** Every Higgsfield *video* model requires at least
-  the **Basic plan** (`job_minimum_basic_plan_required`); image generation runs on free.
-- ▶️ **06-higgsfield-run-sheet.md** has the exact model, settings, per-clip prompts, voice, and
-  assembly steps. Upgrade to Basic → run it (or start a new session and I'll run it) → ~50
-  credits → finished video.
+### Production status
+- ✅ Sora designed + locked as a reusable Higgsfield Reference Element (~40, glass skin).
+- ✅ Real product bottle uploaded + locked as a reusable product reference.
+- ✅ All **6 glass-skin frames** generated (3 with the real bottle) → animated (Kling 3.0 Turbo)
+  → assembled with Maya voiceover + burned captions.
+- ✅ **Final video produced:** job `3383e26b-8ef3-476c-8812-6ee2f8fa8353` (~30s, 720×1280).
+  See **07-final-video-assets.md** for all reusable IDs.
+- 🔎 Pending the user's visual QC in the Higgsfield widget (I can't see the CDN from this env).
+- ▶️ Add the on-screen text overlays (see 03) natively in TikTok/CapCut before posting.
 
 ## Compliance guardrail
 Every line in the script and captions is appearance-/experience-based only. No
