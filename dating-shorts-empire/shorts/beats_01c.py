@@ -1,0 +1,36 @@
+# Beat map for intro v6 — NEW rewritten script, ElevenLabs "Jerry B" VO (58.04s).
+# t_end anchored to word-level timestamps in voice-vo/01-jerry-words.json.
+# Captions/visuals re-synced to the NEW narration; all assets reused (no new gen).
+NAVY=(30,42,69,255); RED=(255,71,87,255); GREEN=(46,213,115,255)
+BEATS = [
+    ( 1.34, "V2","vid",  {"t0":0.0},                              "I'M JOHN",                 GREEN),
+    ( 2.34, "V1","vid",  {"t0":0.0},                              "THE PAST 2 YEARS",         RED),
+    ( 3.52, "V2","vid",  {"t0":2.0},                              "A SOCIAL EXPERIMENT",      NAVY),
+    ( 5.68, "K1","card", {},                                      None,                       None),
+    ( 8.18, "S2","still",{},                                      "DOCUMENTED EVERYTHING",    NAVY),
+    ( 9.58, "S1","still",{},                                      "NOT JUST TO DATE",         NAVY),
+    (11.54, "V2","vid",  {"t0":4.5,"zoom":1.2},                   "HOW ATTRACTION WORKS",     GREEN),
+    (12.86, "SMITTEN","still",{},                                 "HOW PEOPLE CHOOSE",        RED),
+    (14.06, "SMITTEN","still",{"z0":1.3,"z1":1.45,"ytop":0.05},   "REAL CHEMISTRY",           RED),
+    (15.46, "V3","vid",  {"t0":0.0},                              "RECOGNIZE RED FLAGS",      RED),
+    (17.04, "CB1","card",{},                                      None,                       None),
+    (18.26, "S3","still",{},                                      "CARRY YOURSELF",           NAVY),
+    (20.82, "S4","still",{},                                      "STAY OR WALK AWAY",        GREEN),
+    (22.76, "S1","still",{},                                      "AFTER ALL THAT...",        NAVY),
+    (25.92, "SHOCKED","still",{},                                 "NO REAL PLACE FOR GUYS",   NAVY),
+    (27.48, "SHOCKED","still",{"z0":1.3,"z1":1.45,"ytop":0.05},   "HONEST, PRACTICAL ADVICE", NAVY),
+    (31.04, "S5","still",{"z0":1.2,"z1":1.4,"ytop":0.05},         "NO FAKE ALPHA NONSENSE",   RED),
+    (33.62, "V2","vid",  {"t0":6.0},                              "SO I MADE THIS CHANNEL",   GREEN),
+    (37.08, "CB2","card",{},                                      None,                       None),
+    (39.48, "S2","still",{},                                      "THE WINS & MISTAKES",      NAVY),
+    (41.54, "S1","still",{},                                      "LESSONS LEARNED",          NAVY),
+    (44.28, "V1","vid",  {"t0":4.5,"zoom":1.2},                   "MORE CONFIDENT",           GREEN),
+    (45.86, "S3","still",{},                                      "FEWER MISTAKES",           NAVY),
+    (47.76, "SMITTEN","still",{},                                 "HEALTHIER RELATIONSHIPS",  GREEN),
+    (50.42, "S6","still",{},                                      "A BOOK IS COMING",         RED),
+    (51.82, "S6","still",{"z0":1.3,"z1":1.45,"ytop":0.1},         "STAY TUNED",               RED),
+    (54.02, "V2","vid",  {"t0":1.0,"zoom":1.15},                  "LEVEL UP YOUR DATING LIFE",GREEN),
+    (55.74, "V1","vid",  {"t0":5.5,"zoom":1.2},                   "LIKE + SUBSCRIBE",         GREEN),
+    (57.10, "S1","still",{"z0":1.2,"z1":1.4,"ytop":0.05},         "JOIN THE BROS",            GREEN),
+    (58.04, "CB3","card",{},                                      None,                       None),
+]
